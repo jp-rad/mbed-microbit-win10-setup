@@ -1,0 +1,90 @@
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu/ble_dfu.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu/ble_dfu.h
+@@ -53 +53 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_advdata.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_advdata.h
+@@ -48 +48 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_params.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_params.h
+@@ -45 +45 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_state.c
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_state.c
+@@ -37 +37 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_state.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_state.h
+@@ -65 +65 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_gatt_db.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_gatt_db.h
+@@ -38 +38 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_srv_common.c
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_srv_common.c
+@@ -42 +42 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_srv_common.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_srv_common.h
+@@ -48 +48 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/device_manager/device_manager.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/device_manager/device_manager.h
+@@ -91 +91 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/id_manager.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/id_manager.h
+@@ -38 +38 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler/ble_stack_handler_types.h
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler/ble_stack_handler_types.h
+@@ -49 +49 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler/softdevice_handler.c
++++ ./microbit/microbit-dal/nRF51822/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler/softdevice_handler.c
+@@ -47 +47 @@
+-    #include "ble.h"
++    #include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/source/btle/custom/custom_helper.h
++++ ./microbit/microbit-dal/nRF51822/source/btle/custom/custom_helper.h
+@@ -21 +21 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/source/btle/btle.h
++++ ./microbit/microbit-dal/nRF51822/source/btle/btle.h
+@@ -27 +27 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/source/nRF5xGap.h
++++ ./microbit/microbit-dal/nRF51822/source/nRF5xGap.h
+@@ -38 +38 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/nRF51822/source/nRF5xGattServer.h
++++ ./microbit/microbit-dal/nRF51822/source/nRF5xGattServer.h
+@@ -23 +23 @@
+-#include "ble.h" /* nordic ble */
++#include "headers/ble.h" /* nordic ble */
+--- ./microbit/microbit-dal/nRF51822/source/nRF5xServiceDiscovery.h
++++ ./microbit/microbit-dal/nRF51822/source/nRF5xServiceDiscovery.h
+@@ -24 +24 @@
+-#include "ble.h"
++#include "headers/ble.h"
+--- ./microbit/microbit-dal/source/bluetooth/MicroBitBLEManager.cpp
++++ ./microbit/microbit-dal/source/bluetooth/MicroBitBLEManager.cpp
+@@ -43 +43 @@
+-#include "ble.h"
++#include "headers/ble.h"

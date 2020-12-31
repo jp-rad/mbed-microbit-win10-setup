@@ -1,0 +1,21 @@
+--- ./.temp/tools/build_api.py
++++ ./.temp/tools/build_api.py
+@@ -529,3 +529,3 @@
+             for k,v in profile_data.items():
+-                if self.flags.has_key(k):
++                if k in self.flags:
+                     self.flags[k] = v
+--- ./.temp/tools/build_profiles.py
++++ ./.temp/tools/build_profiles.py
+@@ -36,3 +36,3 @@
+     for build in builds:
+-        if MBED_SDK_REV_MAP.has_key(build):
++        if build in MBED_SDK_REV_MAP:
+             idx = MBED_SDK_REV_MAP[build]
+--- ./.temp/tools/project.py
++++ ./.temp/tools/project.py
+@@ -156,3 +156,3 @@
+             for k,v in profile_data.items():
+-                if self.flags.has_key(k):
++                if k in self.flags:
+                     self.flags[k] = v

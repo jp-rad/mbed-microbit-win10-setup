@@ -1,0 +1,5 @@
+--- ./mbed.py
++++ ./mbed.py
+@@ -397 +397 @@
+-                    while data != '':
++                    while data != b'':
